@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "ESNext",
+    "outDir": "public",
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["src"]
+}

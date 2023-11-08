@@ -1,0 +1,21 @@
+{
+  "name": "form-append-approach",
+  "version": "1.0.0",
+  "description": "A technical assesment task for the Department of Work and Pensions.",
+  "main": "public/index.html",
+  "type": "module",
+  "scripts": {
+    "start": "npm run bundle -- --servedir=public",
+    "build": "npm run bundle -- --minify --sourcemap",
+    "bundle": "esbuild --bundle src/index.ts --outfile=public/main.js",
+    "test": "playwright test"
+  },
+  "author": "Dan Edwards",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10",
+    "esbuild": "^0.19.5",
+    "typescript": "^5.2.2"
+  }
+}

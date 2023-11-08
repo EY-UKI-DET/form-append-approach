@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form append</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Append form inputs into the DOM." />
+    <link href="./favicon.svg" rel="icon" type="image/svg+xml" />
+    <link href="./main.css" rel="stylesheet" />
+    <script src="./main.js" defer></script>
+  </head>
+  <main>
+    <h1>Form append</h1>
+    <form>
+      <label>📝 Name<input name="name" /></label>
+      <label>📧 Email<input type="email" name="email" /></label>
+      <label>🐣 Birth date<input type="date" name="birthdate" /></label>
+      <label>☎️ Phone<input type="tel" name="tel" /></label>
+      <output name="error" role="alert"></output>
+      <button>💾 Save</button>
+      <output name="data" role="code"></output>
+    </form>
+  </main>
+</html>

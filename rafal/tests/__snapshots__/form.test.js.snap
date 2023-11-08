@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`examples of some things 1`] = `
+<form>
+  
+      
+  <div
+    class="input-container ic1"
+  >
+    
+          
+    <label
+      for="name"
+    >
+      Name:
+    </label>
+    
+          
+    <input
+      aria-label="Name"
+      class="input"
+      id="name"
+      required=""
+      type="text"
+    />
+    
+      
+  </div>
+  
+      
+  <button
+    class="submit"
+    type="submit"
+  >
+    Submit
+  </button>
+  
+  
+  <div>
+    
+        
+    <div
+      data-testid="printed-name"
+    >
+      Rafal
+    </div>
+    
+      
+  </div>
+</form>
+`;

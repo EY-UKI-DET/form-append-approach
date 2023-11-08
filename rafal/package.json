@@ -1,0 +1,23 @@
+{
+  "name": "simple-form-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@testing-library/dom": "^9.3.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "babel-jest": "^29.7.0",
+    "http-server": "^14.1.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

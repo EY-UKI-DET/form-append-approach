@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Form Example</h1>
+    <body>
+        <div class="container">
+            <div class="form">
+                <div class="title">Form</div>
+                <form id="data-form" role="form">
+                    <div class="error-container" id="error-container"></div>
+                    <div class="input-container ic1">
+                        <label for="name">Name:</label>
+                        <input id="name" class="input" type="text" required aria-label="Name" />
+                    </div>
+                    <div class="input-container ic2">
+                        <label for="email">Email:</label>
+                        <input id="email" class="input" type="email" required aria-label="Email" />
+                    </div>
+                    <div class="input-container ic2">
+                        <label for="dob">Date of Birth:</label>
+                        <input id="dob" class="input" type="date" required aria-label="Date of Birth"/>
+                    </div>
+                    <div class="input-container ic2">
+                        <label for="phone">Phone Number:</label>
+                        <input id="phone" class="input" type="tel" required aria-label="Phone Number"/>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="data-list" role="list">
+                <h2>Submitted Data:</h2>
+                <ul id="data-list">
+                    <!-- Submitted data will be displayed here -->
+                </ul>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</body>
+</html>
+
+
+
+
+
+

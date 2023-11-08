@@ -1,0 +1,41 @@
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+main {
+  max-width: 256px;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+input,
+button {
+  font-size: 1rem;
+  font-family: inherit;
+}
+input[type="date"] {
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+[name="error"] {
+  background-color: crimson;
+  color: white;
+  padding-inline: 0.5rem;
+}
+[name="data"] {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  gap: 1rem;
+}
+[name="data"] * {
+  background-color: silver;
+  padding: 0.5rem;
+}
