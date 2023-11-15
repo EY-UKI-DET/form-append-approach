@@ -1,0 +1,57 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.layout {
+  display: flex;
+}
+
+.app-wrapper {
+  padding: 2rem 0;
+  width: 60%;
+  min-width: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form-wrapper {
+  margin-bottom: 1rem;
+}
+.form-input {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.form-submit {
+  background: none;
+  border: 1px solid #222;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.records-table table {
+  width: 100%;
+}
+.records-table table {
+  text-align: left;
+}
+.records-table .delete-button {
+  background: #ddd;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
